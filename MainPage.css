@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.sec2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.jdmagicbox.com/comp/mumbai/b2/022pxx22.xx22.180320194450.c3b2/catalogue/synergy-marine-group-andheri-east-mumbai-shipping-companies-deeoxbr1ac.jpg?temp=1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar1 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+.nav11 {
+  width: 30%;
+  height: 100px;
+}
+.nav11 > img {
+  width: 100%;
+  height: 100px;
+}
+.nav22 {
+  width: 70%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-evenly;
+}
+.nav22 > span {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.home2 {
+  width: 60%;
+  height: 509px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  margin-left: 20%;
+}
+.hm2 {
+  width: 60%;
+  height: 350px;
+  overflow: scroll;
+}
+.hm2 > h1 {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hm2 > p {
+  width: 90%;
+  font-size: 20px;
+  padding: 20px;
+  color: blue;
+}
+.hm2 > span {
+  width: 90%;
+  font-size: 20px;
+  padding: 25px;
+  color: blue;
+}
+.logo {
+  width: 15%;
+  height: 30%;
+  border-radius: 100%;
+  background-color: rgb(80, 79, 79);
+  border: 2px solid rgb(218, 70, 95);
+  color: red;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 4px 4px 4px green;
+  font-size: 25px;
+  top: 40%;
+  left: 2%;
+}
+.sec3 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://www.spallassociates.com/public/images/project/53062814971672746942.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec31 {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin-left: 40%;
+  background-color: rgba(16, 184, 206, 0.575);
+}
+.sec32 {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  position: absolute;
+  background-color: rgba(30, 185, 89, 0.61);
+}
+.sec33 {
+  width: 20%;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+}
+.sec33 > h1 {
+  font-size: 50px;
+  color: purple;
+}
+.se33 > h2 {
+  font-size: 50px;
+}
+.sp33 {
+  width: 50px;
+  height: 50px;
+  background-color: aliceblue;
+  border-radius: 100%;
+  position: absolute;
+  font-size: 30px;
+  right: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#in {
+  width: 15%;
+  height: 150px;
+  background-color: aquamarine;
+  display: none;
+  border-radius: 20px;
+  position: absolute;
+  top: 16%;
+  right: 5%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#in > input {
+  width: 60%;
+  height: 30px;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+#in > button {
+  width: 30%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+}
